@@ -1,0 +1,90 @@
+
+ body {
+   background-color: lightgray
+
+ }
+ 
+ 
+
+ #bluebox {
+   width:850px;
+   height:300px;
+   background-color: blue;
+   margin: 0 auto;
+ }
+
+
+ #whitebox {
+  width:850px;
+  height:40px;
+  background-color:white;
+  margin: 0 auto;
+ }
+
+
+ #photobox {
+   border:1px solid black;
+   width: 200px;
+   height:200px;
+   background-color:blue;
+   position: absolute;
+   top: 140px;
+   left: 220px;
+ 
+ }
+
+ #bluebox h1 {
+   color:white;
+   position: relative;
+   left:220px;
+
+ }
+
+ #bluebox h2 {
+   color:white;
+   position: relative;
+   left:220px;
+ }
+
+ #navlist {
+   margin:0;
+   padding:0;
+   margin-left: 240px;
+
+ }
+ #navlist li{
+   display: inline;
+   padding-right: 5px;
+   border-right: 1px solid black;
+   margin-right: 20px;
+  
+ }
+
+ #navlist li:last-child{
+   border-right:0;
+ }
+
+ #navlist li:first-child {
+   border-right: 0;
+   font-weight: bold;
+ }
+
+#button-container {
+  position: absolute;
+  right:300px;
+  top :30px;
+}
+
+#like-button, #buttonbar, #buttonbar div {
+  display:inline;
+}
+
+#buttonbar {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+#like-button {
+  margin-right: 20px;
+  border: 1px solid black;
+}
